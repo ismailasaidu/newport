@@ -1,0 +1,183 @@
+
+* {
+    background: #1E1E1E;
+    font-family: 'Geo', sans-serif;
+    padding: nonxt;
+    margin: none;
+    /* color: white; */
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    margin-top: -30px;
+}
+
+.left {
+
+    flex: 1;
+ 
+}
+.left div{
+    margin-top: 80px;
+    background-image: url(../../img/abdul.png);
+    width: 260px;
+    height: 270px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-position: center;
+    /* border: 2px solid white; */
+}
+
+.left div:hover{
+    background-image: url(../../img/emoji.png);
+    border: 2px solid white;
+}
+
+.spin{
+    animation: spin 6s linear infinite;
+    width: fit-content;
+    display: inline-block;
+    height: fit-content;
+   position: absolute;
+   left: 450px;
+   top: -55px;
+ 
+}
+
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.right :nth-child(1) h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100.302px;
+}
+
+
+.under{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -100px;
+    gap: 130px;
+    color: white;
+    margin-left: 250px;
+}
+
+.under p{
+    font-family: 'Geo';
+font-style: italic;
+font-weight: 500;
+font-size: 28.122px;
+line-height: 31px;
+
+}
+
+.nxt {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.nxt button{
+    width: 137.31px;
+    height: 46.62px;
+    border: none;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.nxt button:hover{
+    background: #1E1E1E;
+    color: white;
+    border: 2px solid #FFFFFF;
+}
+
+.nxt :nth-child(3) :nth-child(1){
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nxt :nth-child(3){
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nxt p{
+    color: white;
+}
+
+.slider h1{
+    font-size: 100px;
+    color: white;
+    width: 1300px;
+}
+
+.last {
+    position: relative;
+}
+.last div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: -15px;
+    left: 130px;
+    z-index: 2;
+}
+
+/* .last :nth-child(2){
+    margin-left: 300px;
+} */
+.last p {
+    font-weight: 500;
+    font-size: 28.122px;
+    line-height: 31px;
+}
+
+
+
+
+.text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.first_pic{
+    background-image:url(../../img/abdul.png);
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+.first_pic:hover{
+    background-image:url(../../img/emoji.png)
+}

@@ -1,0 +1,287 @@
+
+.container{
+    margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .mid {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .mid h1 {
+        font-weight: 500;
+        font-size: 80.302px;
+        line-height: 27px;
+        color: #FFFFFF;
+        text-decoration: 5px underline;
+    }
+    
+    .mid_box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 3fr 1fr;
+        grid-template-rows: minmax(200px, 100px);
+        margin: 40px;
+        grid-auto-flow: dense;
+        margin-top: -10px;
+        border: 2px solid white;
+
+       
+
+    }
+    .container_box{
+        /* background: blue; */
+        color: #FFFFFF;
+        border: 2px solid white;
+        opacity: 70%;
+        position: relative;
+        
+    }
+
+    .mid_box :nth-child(1){
+        grid-column: span 2;
+        grid-row: span 1;
+        /* background: url({rightphone}); */
+        background-color: #45CA63;
+        /* position: relative;
+        text-align: center;
+        overflow: hidden; */
+    }
+  
+
+    .mid_box:nth-child(1) button{
+        position: absolute;
+        right: -100%;
+       top:80px;
+        transition: 500ms;
+        cursor: pointer;
+    }
+
+    .mid_box:nth-child(1):hover button{
+        right: 50%;
+    }
+
+
+
+.mid_box :nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: #130E2E;
+
+}
+
+.mid_box :nth-child(3) {
+    grid-column: span 2;
+    grid-row: span 2;
+    height: 190px;
+
+}
+
+.mid_box :nth-child(4) {
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 190px;
+
+
+}
+
+.mid_box :nth-child(5) {
+    grid-column: span 1;
+    grid-row: 1;
+    background-color: #45CA63;
+    width: 190px;
+
+
+}
+
+
+.container_box1{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.container_box1:hover{
+    opacity: 60%;
+}
+
+.container_box1  .btns{
+    position: absolute;
+    cursor: pointer;
+    right: -50%;
+    transition: 500ms;
+    top: 100px;
+
+}
+
+.container_box1:hover .btns{
+    right: 190px;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    background: #FFFFFF;
+    border: none;
+}
+
+
+
+.container_box2{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid white;
+    cursor: pointer;
+  
+}
+.container_box2:hover{
+    opacity: 60%;
+}
+
+.container_box2  .btns{
+    position: absolute;
+    cursor: pointer;
+    right: -80%;
+    transition: 500ms;
+    top: 150px;
+
+}
+
+.container_box2:hover .btns{
+    right: 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background: #FFFFFF;
+    border: none;
+}
+
+
+.container_box3{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid white;
+    cursor: pointer;
+  
+}
+.container_box3:hover{
+    opacity: 60%;
+}
+
+.container_box3  .btns{
+    position: absolute;
+    cursor: pointer;
+    right: -80%;
+    transition: 500ms;
+    top: 70px;
+
+}
+
+.container_box3:hover .btns{
+    right: 90px;
+    border-radius: 20px;
+    width: 130px;
+    height: 30px;
+    background: #FFFFFF;
+    border: none;
+}
+
+
+
+
+.container_box4{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid white;
+    cursor: pointer;
+   
+  
+}
+.container_box4:hover{
+    opacity: 60%;
+}
+
+.container_box4  .btns{
+    position: absolute;
+    cursor: pointer;
+    right: -80%;
+    transition: 500ms;
+    top: 70px;
+
+}
+
+.container_box4:hover .btns{
+    right: 110px;
+    border-radius: 20px;
+    width: 180px;
+    height: 30px;
+    background: #FFFFFF;
+    border: none;
+ 
+}
+
+
+.container_box5{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid white;
+    cursor: pointer;
+  
+}
+.container_box5:hover{
+    opacity: 60%;
+}
+
+.container_box5  .btns{
+    position: absolute;
+    cursor: pointer;
+    right: -80%;
+    transition: 500ms;
+    top: 70px;
+
+}
+
+.container_box5:hover .btns{
+    right: 25px;
+    border-radius: 20px;
+    width: 140px;
+    height: 30px;
+    background: #FFFFFF;
+    border: none;
+
+}
+
+.Last{
+    margin-top: -50px;
+}
+     /* .container_box{
+      
+     }
+
+     .btns{
+    
+        
+     }
+
+     .container_box .btns{
+        background: white;
+     }
+
+     .container_box:hover .btns{
+        right: 60px;
+       
+     } */

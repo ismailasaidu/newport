@@ -1,0 +1,14 @@
+.last {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+   
+}
+
+.last p {
+    font-weight: 500;
+    font-size: 28.122px;
+    line-height: 31px;
+}

@@ -1,0 +1,62 @@
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+ 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+ 
+}
+.nxt button{
+    background: #FFFFFF;
+    color: #1E1E1E;
+    border: none;
+}
+.nxt button:hover{
+    background: #1E1E1E;
+    color: white;
+    border: 2px solid #FFFFFF;
+}
+.mid{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.mid h1{
+    font-weight: 500;
+font-size: 80.302px;
+line-height: 27px;
+color: #FFFFFF;
+text-decoration: 5px underline;
+}
+
+.mid p{
+    font-weight: 500;
+font-size: 27.2872px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.last {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #FFFFFF;
+   
+}
+
+.last p {
+    font-weight: 500;
+    font-size: 28.122px;
+    line-height: 31px;
+}
