@@ -18,7 +18,7 @@ const Last = () => {
           style={{ width: "25px", height: "25px" }}
 
           onClick={()=>{
-            window.open("https://www.instagram.com/lo.ne.r")
+            // window.open("http://instagram.com/lo.ne.r_")
             
           }}
         />
@@ -44,6 +44,9 @@ const Last = () => {
           src={linkedin}
           alt="pic"
           style={{ width: "25px", height: "25px" }}
+          onClick={() => {
+            window.open("https://linkedin.com/in/abdullahi-saidu-2a5749224");
+          }}
         />
         <img src={email} alt="pic" style={{ width: "25px", height: "25px" }} 
 

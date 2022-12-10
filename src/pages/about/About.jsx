@@ -26,16 +26,16 @@ const About = () => {
               navigate("/");
             }}
           >
-            profile
+            Profile
           </p>
         </div>
-        <div style={{ display: "flex", gap: "80px" }} className={styles.nxt}>
+        <div style={{ display: "flex", gap: "40px" }} className={styles.nxt}>
           <button
             style={{
               width: "137.31px",
               height: "46.62px",
 
-              borderRadius: "20px",
+              borderRadius: "30px",
               cursor: "pointer",
             }}
           >
@@ -46,53 +46,56 @@ const About = () => {
               width: "137.31px",
               height: "46.62px",
 
-              borderRadius: "20px",
+              borderRadius: "30px",
               cursor: "pointer",
             }}
             onClick={() => {
               navigate("/archieves");
             }}
           >
-            ARCHIEVES
+            ARCHIVES
           </button>
         </div>
-        <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-          {" "}
-          <p style={{ color: "white" }}>RESUME</p>
-          <a href="abdul.png " download>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <div>
+          <a href="abdul.pdf " download style={{ color: "white" , textDecoration:"none" }}>RESUME</a>
+          </div>
+          <div>
+          <a href="abdul.pdf " download>
             <img src={down} />
           </a>
+          </div>
         </div>
       </div>
       <div className={styles.mid}>
         <div>
           <h1>ABOUT</h1>
         </div>
+        <div className={styles.mid_under} style={{height:"5px"}}>
+         
+        </div>
         <div>
           <p>
-            Abdull loves creativity and is passionate about design, art and
-            colors. He loves to<br></br> create delightful and intuitive
-            designs. <br></br>
-            <br></br>I believe in creating a fully interactive and engaging
-            experience in the digital<br></br> world. I am highly flexible and
-            adaptable when it comes to different projects<br></br>
-            and freelance work.<br></br>
-            <br></br>
-            Why i love designing? Design has been part of me since my
-            child-hood. I’m so <br></br>passionate about creativity and I love
-            solving creative problems. I love my work <br></br>and I love
-            design.
+          I am an astute and self-motivated designer with a record for delivering valuable results,I possess strong UI and UX skills which I have acquired for over 2 years by delivering pixel-perfect design solutions that cover user requirements <br></br> through conducting research and collaborating with teams to define and solve users frustrations/pain points.<br></br> <br></br>
+
+I possess a keen eye for quality design solutions, that help companies and organizations increase user retention as well as engagement.<br></br>
+
+My Expertise Include Enterprise Design Thinking, User flow, Information Architecture Design systems, Wireframing, and Prototyping.<br></br><br></br>
+
+Tools I use: Figma, Adobe XD, Adobe Illustrator, Photoshop, Protopie, Low-code Technologies (Webflow)
+
+Other tools I am familiar with: Html5, CSS, Jira, Slack<br></br><br></br>
           </p>
         </div>
       </div>
       <div className={styles.last}>
-        <p>let's Connect:</p>
+        <p>Let's Connect:</p>
         <img
           src={instagram}
           alt="pic"
           style={{ width: "25px", height: "25px" }}
           onClick={() => {
-            window.open("https://www.instagram.com/lo.ne.r");
+            // window.open("https://www.instagram.com/lo.ne.r");
           }}
         />
         <img
@@ -115,6 +118,9 @@ const About = () => {
           src={linkedin}
           alt="pic"
           style={{ width: "25px", height: "25px" }}
+          onClick={() => {
+            window.open("https://linkedin.com/in/abdullahi-saidu-2a5749224");
+          }}
         />
         <img
           src={email}

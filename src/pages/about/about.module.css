@@ -35,13 +35,21 @@
 font-size: 80.302px;
 line-height: 27px;
 color: #FFFFFF;
-text-decoration: 5px underline;
+/* text-decoration: 5px underline; */
+}
+.mid_under{
+    background: white;
+    height: 3px solid white;
+    width: 100px;
+    margin-left: -76px;
+    margin-top: -35px;
 }
 
 .mid p{
     font-weight: 500;
+
 font-size: 27.2872px;
-line-height: 30px;
+line-height: 40px;
 text-align: center;
 color: #FFFFFF;
 
@@ -52,6 +60,7 @@ color: #FFFFFF;
     gap: 20px;
     align-items: center;
     color: #FFFFFF;
+    margin-top: -40px;
    
 }
 

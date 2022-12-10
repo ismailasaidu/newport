@@ -23,9 +23,7 @@ const Main = () => {
             <div></div>
           </div>
           <div className={styles.right}>
-            <div>
               <h1>ABDULLAHI SAIDU</h1>
-            </div>
           </div>
         </div>
 
@@ -35,7 +33,7 @@ const Main = () => {
           </div>
           <div>
             <p>+234-909-546-142-7</p>
-            <p>+234-909-546-142-7</p>
+            <p>+234-802-061-561-3</p>
           </div>
         </div>
         <div className={styles.nxt}>
@@ -54,11 +52,11 @@ const Main = () => {
                 navigate("/archieves");
               }}
             >
-              ARCHIEVES
+              ARCHIVES
             </button>
           </div>
           <div>
-            <a href="abdul.png" download>
+            <a href="abdul.pdf" download>
               RESUME
             </a>
             <a href="abdul.pdf" download>
@@ -85,12 +83,13 @@ const Main = () => {
                 alt="pic"
                 style={{ width: "25px", height: "25px" }}
                 onClick={() => {
-                  window.open("https://www.instagram.com/lo.ne.r");
+                  // window.open("https://instagram.com/lo.ne.r_");
                 }}
               />
               <img
                 src={twitter}
                 alt="pic"
+                
                 style={{ width: "25px", height: "25px" }}
                 onClick={() => {
                   window.open("https://twitter.com/teddiesux");
@@ -108,6 +107,9 @@ const Main = () => {
                 src={linkedin}
                 alt="pic"
                 style={{ width: "25px", height: "25px" }}
+                onClick={() => {
+                  window.open("https://linkedin.com/in/abdullahi-saidu-2a5749224");
+                }}
               />
               <img
                 src={email}
